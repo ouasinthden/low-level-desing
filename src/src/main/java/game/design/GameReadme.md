@@ -1,8 +1,9 @@
-#### We are going to cover about the chess game design here.<br>
+#### We are going to cover about the chess(mainly) game design here.<br>
 #### Services 
 1. Match Making Service
 2. LeaderBoard Service 
-3. History Maintenance Service 
+3. History Maintenance Service
+4. User Management Serivce 
 
 
 1. Match Making Service
