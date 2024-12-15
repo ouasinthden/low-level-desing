@@ -39,4 +39,53 @@
     * SMS 
     * Email
 
-These all are the requirements of the system, thats how only our system will be good enough. 
+These all are the requirements of the system, that's how only our system will be good enough. 
+
+
+### Classes and Entities 
+* Data Object Classes 
+  * User  
+    * Customer
+    * Owner
+  * Hotel
+    * Beach Hotel 
+    * Mountain Hotel
+  * Room 
+    * Duplex Room 
+    * Suite Room
+    * Single Room 
+    * Double Bed Room
+    * Cottage
+  * Payment
+    * Credit Card 
+    * UPI 
+    * Debit Card 
+
+* Services Classes 
+  * Reservation Class
+    * Hotels
+    * Flights
+    * ...
+  * Status Class
+  * Acknowledgement Class 
+> Services class contains Data Object based on the need 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
