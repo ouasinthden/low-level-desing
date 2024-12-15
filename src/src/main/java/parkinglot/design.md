@@ -30,6 +30,30 @@ This statement can be crafted as
 ***
 ***
 
+### Database Design and Patterns 
+
+***
+Now since we need our system to be consistent, we can manage with 
+system being little less available all the time, but it would be nanoseconds only. 
+Always remember it is a **trade-off**
+
+So Obvious choice here would to go with SQL
+
+#### Table Schema 
+```roomsql
+CREATE TABLE SPACE_TICKET_TABLE(
+  TICKET int,  
+  PARKING_SPACE int,
+  CREATED_AT datetime, 
+  UPDATED_AT datetime,
+  UNIQUE_INDEX_KEY TICKET_PARKING_SPACE_INDEX(TICKET, PARKING_SPACE);
+)
+//this only table will be required here ig.
+```
+
+
+***
+
 ### Class Object and Entities Relationship
 
 ***
@@ -99,6 +123,8 @@ class Payment {
 
 }
 ```
+
+
 
 
 
